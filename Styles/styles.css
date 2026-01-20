@@ -68,6 +68,77 @@ header nav ul{
     color: #ffffff;
 }
 
+/* Banner */
+.banner{
+    
+    background-color: #ffffff;
+    border: 3px solid red;
+    background: url("../assets/hero-bg.png");
+    height: 760px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+    
+}
+
+.banner-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blue;
+}
+
+.banner-container h1{
+    font-size: 3.75rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.banner-container p{
+    color: #FFFFFFCC;
+}
+
+.wave{
+    width: 100%;
+}
+
+.mic-bg{
+    background: linear-gradient(40deg, #F7E93F, #FB09B4, #9100F8);
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    
+
+}
+
+.mic-bg img{
+    width: 116.67px;
+    height: 175px;
+}
+
+.new{
+    width: 75px;
+    background-color: #00FF88;
+    font-size: 18px;
+    font-weight: 600;
+    color: 1A0B2E;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+}
+
+.center-img{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* response stuff */
