@@ -13,21 +13,23 @@
 </head>
 <body class="inter">
     <header class="dark-bg">
-        <nav class="flex">
-            <div class="logo">
-                <!-- <h1>Tech<span class="wave">Wave</span></h1> -->
-                 <img src="./TechWave.png" alt="">
-            </div>
-            <ul class="small-font">
-                <li>About</li>
-                <li>Episodes</li>
-                <li>Hosts</li>
-            </ul>
-            <div class="subscribe">
-                <button class="our-button small-font">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-                <img class="three-bars" src="./assets/hamburger-menu.png" alt="">
-            </div>
-        </nav>
+        <div class="nav-container">
+            <nav class="flex">
+                <div class="logo">
+                    <!-- <h1>Tech<span class="wave">Wave</span></h1> -->
+                    <img src="./TechWave.png" alt="">
+                </div>
+                <ul class="small-font">
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>Hosts</li>
+                </ul>
+                <div class="subscribe">
+                    <button class="our-button small-font">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                    <img class="three-bars" src="./assets/hamburger-menu.png" alt="">
+                </div>
+            </nav>
+        </div>
 
         <!-- banner -->
         <section class="banner">
@@ -44,8 +46,11 @@
                 
                 <h1>TechWave</h1>
                 <p class="small-font">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <button class="our-button">Listen on Spotify</button>
-                <button class="our-button">Subscribe</button>
+                <div class="btn-group">
+                    <button class="our-button"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                    <button id="sub" class="our-button"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                </div>
+                
             </div>
         </section>
     </header>

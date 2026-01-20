@@ -35,6 +35,10 @@
 
 /*nav bar */
 
+.nav-container{
+    border-bottom: 2px solid #412567;
+}
+
 .three-bars{
     display: none;
     width: 18px;
@@ -72,32 +76,42 @@ header nav ul{
 .banner{
     
     background-color: #ffffff;
-    border: 3px solid red;
+
+    border: 3px solid rgba(255, 0, 0, 0);   
+    /*I used border for my better visualization. idk why removing the border causes the website to break. 
+    so i just reduced the opacity lol */
+      
     background: url("../assets/hero-bg.png");
     height: 760px;
     background-repeat: no-repeat;
     background-position: center; 
+    background-size:contain;
     
     
 }
 
 .banner-container{
-    
+    width: 90%;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    margin: 101px auto;
+    text-align: center;
 }
 
 .banner-container h1{
     font-size: 3.75rem;
     color: #ffffff;
     font-weight: 800;
+    margin-bottom: 8px;
 }
 
 .banner-container p{
     color: #FFFFFFCC;
+    margin-bottom: 24px;
 }
 
 .wave{
@@ -120,6 +134,7 @@ header nav ul{
 .mic-bg img{
     width: 116.67px;
     height: 175px;
+    
 }
 
 .new{
@@ -133,11 +148,33 @@ header nav ul{
     justify-content: center;
     align-items: center;
     border-radius: 1000px;
+
+    position: absolute;
+    top: 12px;
+    right: 23px;
 }
 
 .center-img{
     display: flex;
     flex-direction: column;
+
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.btn-group{
+    display: flex;
+    gap: 8px;
+}
+
+.btn-group button{
+    font-size: 1rem;
+}
+
+#sub{
+    border: 2px solid #00FF88;
+    background: none;
+    color: #00FF88;
 }
 
 
