@@ -17,7 +17,7 @@
 }
 
 .small-font{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .our-button{
@@ -34,6 +34,12 @@
 
 
 /*nav bar */
+
+.three-bars{
+    display: none;
+    width: 18px;
+    height: 13.5px;
+}
 
 header img{
     width: 219px;
@@ -65,3 +71,27 @@ header nav ul{
 
 
 /* response stuff */
+@media screen and (max-width: 576px) {
+
+    /* nav bar */
+    .three-bars{
+        display: block;
+    }
+
+    .subscribe button{
+        display: none;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    .logo img{
+        width: 137px;
+        height: 20px;
+    } 
+
+    header nav{
+        width: 90%;
+    }
+}
