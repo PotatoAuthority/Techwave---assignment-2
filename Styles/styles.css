@@ -67,7 +67,7 @@ header nav ul{
     gap: 32px;
 }
 
-header nav ul{
+header nav li{
     font-weight: 500;
     color: #ffffff;
 }
@@ -434,6 +434,35 @@ footer{
     display: flex;
     gap: 2.5px;
 }
+
+
+
+/* ======================================effects */
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    color: #9100F8;
+}
+
+
+button {
+    background: linear-gradient(-40deg, #F7E93F, #FB09B4, #9100F8);
+    transition: background-color 1s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9100F8;   /* solid color */
+    background-image: none;
+    color: #1A0B2E;
+}
+
 
 
 
