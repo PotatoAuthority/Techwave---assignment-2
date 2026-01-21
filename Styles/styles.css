@@ -170,7 +170,7 @@ header nav ul{
 }
 
 .text-container{
-    width: 85%;
+    width: 75%;
     margin: 0px auto;
     padding-top: 50px;
     padding-bottom: 80px;
@@ -191,7 +191,7 @@ header nav ul{
 }
 
 .card-container{
-    width: 85%;
+    width: 75%;
     margin: 0px auto;
     padding: 80px 0px 120px 0px;
     display: grid;
@@ -205,6 +205,81 @@ header nav ul{
     color: #00FF88;
     margin-bottom: 16px;
 }
+
+/* why section */
+.why{
+    background-color: #230E3D;
+    color: #ffffff;
+}
+
+.why h1{
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.why-container{
+    /* border: 1px solid yellow; */
+    width: 75%;
+    height: 738px;
+    margin: 0px auto;
+}
+
+/*------------------------------ WHY GRID AREAS */
+
+.audio{
+    grid-area: audio;
+}
+.mobile{
+    grid-area: mobile;
+}
+
+.global{
+    grid-area: global;
+}
+.fast{
+    grid-area: fast;
+}
+.rich{
+    grid-area: rich;
+}
+
+.why-container{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "audio mobile mobile"
+    "audio global global"
+    "fast  fast   rich";
+
+    padding-bottom: 120px;
+}
+
+.why-card{
+    
+    background-color:rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    padding: 0px 40px;
+    justify-content:center;
+    align-items:flex-start;
+    text-align: left;
+}
+
+.why-card h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.why-card p{
+    color: rgba(255, 255, 255, 0.408);
+    line-height: 24px;
+}
+
+            
 
 
 /* response stuff */
