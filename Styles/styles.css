@@ -188,5 +188,46 @@ header nav ul{
     }
 
     /* banner */
-    
+    .banner{
+        /* border: 1px solid cyan; */
+        background: url(../mobile_header.png);
+        width: 100%;
+        height: 466px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      
+    }
+
+    .img-box, .circle{
+        height: 200px;
+        width: 200px;
+    }
+
+    .mic{
+        width: 46.67px;
+        height: 70px;
+    }
+
+    .new{
+        top: 4px;
+        right: 0px;
+    }
+
+    .banner-container{
+        /* border: 1px solid pink; */
+        width: 90%;
+        margin: 0px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+    }
+
+    .img-box{
+        margin-bottom: 24px;
+    }
+
 }
