@@ -333,6 +333,74 @@ iframe{
     color: #00FF88;
     font-weight: 600;
 }
+
+/* host */
+
+.host{
+    background-color: #1A0B2E;
+    color: #ffffff;
+}
+
+.host h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.host-box{
+    
+    /* width: 75%; */
+    
+    background-color: #250D44;
+    border-radius: 40px;
+    
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.host-main-box{
+    width:75%;
+    margin: 0px auto;
+}
+
+.host-box h3{
+    font-size: 2rem;
+}
+
+.host p{
+    color: rgba(255, 255, 255, 0.603);
+    line-height: 24px;
+}
+
+.host-info{
+    /* border: 3px solid red; */
+    /* padding: 0px 40px; */
+    display: grid;
+    gap: 16px;
+    
+}
+
+
+.host-social{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.host-social img{
+    padding: 15px;
+    border: 1px solid #533C72;
+    /* border-radius: 50%; */
+}
+
+
+
+
+
+
 /* response stuff */
 @media screen and (max-width: 576px) {
 
@@ -469,4 +537,24 @@ iframe{
         margin-bottom: 0px;
     }
 
+    /* host */
+    .host-box{
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+    .host-social{
+        justify-content: center;
+    }
+
+    .host h1{
+        font-size: 2rem;
+        padding-top: 60px;
+        padding-bottom: 24px;
+    }
+
+    .host-box h3{
+        font-size: 1.5rem;
+    }
 }
