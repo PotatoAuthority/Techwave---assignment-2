@@ -210,6 +210,7 @@ header nav ul{
 .why{
     background-color: #230E3D;
     color: #ffffff;
+    padding-bottom: 120px;
 }
 
 .why h1{
@@ -252,8 +253,9 @@ header nav ul{
     "audio mobile mobile"
     "audio global global"
     "fast  fast   rich";
-
-    padding-bottom: 120px;
+    height: 100%;
+    /* padding-bottom: 120px; */
+    /* border: 1px solid chocolate; */
 }
 
 .why-card{
@@ -263,7 +265,7 @@ header nav ul{
     display: flex;
     gap: 16px;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 40px;
     justify-content:center;
     align-items:flex-start;
     text-align: left;
@@ -365,6 +367,42 @@ header nav ul{
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
 
+    }
+
+    /* why section */
+
+    .why-container{
+        width: 90%;
+        height: 100%;
+        grid-template-areas: 
+        "audio"
+        "mobile"
+        "global"
+        "fast"
+        "rich";
+
+        gap: 16px;
+    }
+
+    .why h1{
+        font-size: 2rem;
+        padding: 40px 0px 16px 0px;
+    }
+
+    .why-card h4{
+        font-size: 1.375rem;
+    }
+
+    .why-card{
+        padding: 24px;
+    }
+
+    .why{
+        padding-bottom: 40px;
+    }
+
+    .why-card p{
+        font-size: 1rem;
     }
 
 }
