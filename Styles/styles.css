@@ -194,16 +194,16 @@ header nav ul{
     width: 85%;
     margin: 0px auto;
     padding: 80px 0px 120px 0px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    gap: 80px;
 }
 
 .card h3{
     font-size: 3rem;
     font-weight: 900;
     color: #00FF88;
+    margin-bottom: 16px;
 }
 
 
@@ -273,6 +273,23 @@ header nav ul{
 
     .img-box{
         margin-bottom: 24px;
+    }
+
+    /* podcast */
+    .text-container, .card-container{
+        width: 90%;
+        padding: 40px 0px;
+    }
+
+    .text-container h3{
+        font-size: 2rem;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+
     }
 
 }
