@@ -161,6 +161,51 @@ header nav ul{
     right: 23px;
 }
 
+/* PODCAST SECTION */
+
+.podcast{
+    background-color: #1A0B2E ; 
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-container{
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-container h3{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text-container p, .card p{
+    
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.25rem;
+
+}
+
+.card-container{
+    width: 85%;
+    margin: 0px auto;
+    padding: 80px 0px 120px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.card h3{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+}
+
 
 /* response stuff */
 @media screen and (max-width: 576px) {
