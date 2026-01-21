@@ -73,6 +73,93 @@ header nav ul{
 }
 
 /* Banner */
+.banner{
+    background: url(../assets/hero-bg.png);
+    height: 746px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    padding-top: 101px;
+    padding-bottom: 101px;
+}
+.img-box{
+    width: 350px;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    margin-bottom: 40px;
+
+    position: relative;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+}
+
+.mic{
+    width: 116.67px;
+    height: 175px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-container h1{
+    font-size: 3.75rem;
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.banner-container p{
+    color: #FFFFFFCC;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.btn-group{
+    display: flex;
+    gap: 8px;
+}
+
+.btn-group button{
+    font-size: 1rem;
+}
+
+#sub{
+    border: 2px solid #00FF88;
+    background: none;
+    color: #00FF88;
+}
+
+.new{
+    width: 75px;
+    background-color: #00FF88;
+    font-size: 18px;
+    font-weight: 600;
+    color: 1A0B2E;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+
+    position: absolute;
+    top: 12px;
+    right: 23px;
+}
 
 
 /* response stuff */
@@ -101,6 +188,5 @@ header nav ul{
     }
 
     /* banner */
-
     
 }
