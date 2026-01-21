@@ -329,7 +329,7 @@ iframe{
     margin-bottom: 12px;
 }
 .videos .dur{
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     color: #00FF88;
     font-weight: 600;
 }
@@ -452,6 +452,21 @@ iframe{
 
     .why-card p{
         font-size: 1rem;
+    }
+
+    /* featured */
+    .featured-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+
+    .featured{
+        padding-top: 40px;
+        
+    }
+
+    .videos .dur{
+        margin-bottom: 0px;
     }
 
 }
