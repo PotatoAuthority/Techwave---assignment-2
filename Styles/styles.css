@@ -654,7 +654,7 @@ button:hover {
     }
 
     .footer-box{
-        padding: 40px 40px;
+        padding: 40px 0px;  /* padding: 40px 40px;       EDAR JNNO AMAR PURA MOBILE RESPONSIVENESS DESTROY HOYA GESE AND AMAR MARK KATA JABE*/   
         width: 90%;
         
 
