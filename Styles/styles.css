@@ -392,6 +392,7 @@ iframe{
 }
 
 .host-social img{
+    height: 17px;
     padding: 15px;
     border: 1px solid #533C72;
     /* border-radius: 50%; */
